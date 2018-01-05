@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'ProductsController@index');
+
+Route::get('/api/products', function () {
+    return App\Product::orderBy('created_at')->get();
 });
+
+Route::post('/', 'ProductsController@store');

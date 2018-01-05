@@ -1,0 +1,17 @@
+[
+  {
+    "name": "product1234",
+    "quantity": 2,
+    "price": 25.0000
+  },
+  {
+    "name": "product234234",
+    "quantity": 33,
+    "price": 19.0000
+  },
+  {
+    "name": "product23432",
+    "quantity": 24,
+    "price": 26.0000
+  }
+]
